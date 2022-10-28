@@ -1,11 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 
-url1 = 'https://en.wikipedia.org/wiki/John_von_Neumann'
-url2 = 'https://pt.wikipedia.org/wiki/Jair_Bolsonaro'
-url3 = 'https://www.brasilparalelo.com.br/artigos/foro-de-sao-paulo'
-url4 = 'https://pt.wikipedia.org/wiki/Independ%C3%AAncia_do_Brasil'
-url5 = 'https://www.brasilparalelo.com.br/artigos/o-que-e-conservadorismo'
+url1 = 'https://www.geeksforgeeks.org/natural-language-processing-overview/'
+url2 = 'https://www.ibm.com/cloud/learn/natural-language-processing'
+url3 = 'https://www.oracle.com/artificial-intelligence/what-is-natural-language-processing/'
+url4 = 'https://www.deeplearning.ai/resources/natural-language-processing/'
+url5 = 'https://monkeylearn.com/blog/natural-language-processing-techniques/'
 
 page1 = requests.get(url1)
 page2 = requests.get(url2)
